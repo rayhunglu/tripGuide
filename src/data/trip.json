@@ -1,0 +1,107 @@
+{
+  "title": "大阪・京都 楓遊記",
+  "subtitle": "9 天 8 夜｜2026.11.19 – 11.27",
+  "departure": "2026-11-19T00:00:00",
+  "flights": [
+    { "label": "11/19（四）去程", "color": "blue", "from": "出發地", "to": "關西機場 KIX", "dep": "待填", "arr": "待填", "no": "航班待填", "note": "KIX 入境、領取行李" },
+    { "label": "11/27（五）回程", "color": "green", "from": "關西機場 KIX", "to": "回家", "dep": "待填", "arr": "待填", "no": "航班待填", "note": "下午班機" }
+  ],
+  "days": [
+    {
+      "date": "11/19", "wd": "週四", "icon": "tower", "color": "coral", "title": "抵達大阪＋新世界夜遊", "stay": "大阪｜Miyako City Osaka Tennoji",
+      "items": [
+        { "slot": "下午", "title": "KIX 入境、領取行李", "tags": ["飛機"] },
+        { "slot": "下午", "title": "關西機場 → 大阪飯店", "tags": ["電車"] },
+        { "slot": "下午", "title": "Check-in / 放行李" },
+        { "slot": "下午", "title": "四天王寺" },
+        { "slot": "晚上", "title": "新世界＋通天閣", "must": true },
+        { "slot": "晚餐", "title": "新世界" }
+      ]
+    },
+    {
+      "date": "11/20", "wd": "週五", "icon": "crab", "color": "yellow", "title": "道頓堀＋梅田夜景", "stay": "大阪｜Miyako City Osaka Tennoji",
+      "items": [
+        { "slot": "早上", "title": "心齋橋 → 道頓堀 → 法善寺橫丁", "tags": ["步行"], "must": true },
+        { "slot": "下午", "title": "黑門市場" },
+        { "slot": "下午", "title": "天神橋筋商店街", "tags": ["步行"] },
+        { "slot": "下午", "title": "中崎町" },
+        { "slot": "晚上", "title": "梅田＋空中庭園夜景", "must": true },
+        { "slot": "晚餐", "title": "備選：かに道樂 道頓堀本店", "note": "試算表備註的餐廳" }
+      ]
+    },
+    {
+      "date": "11/21", "wd": "週六", "icon": "train", "color": "blue", "title": "大阪到京都＋古寺巡禮", "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+      "items": [
+        { "slot": "早上", "title": "大阪到京都", "tags": ["電車"] },
+        { "slot": "下午", "title": "二條城 / 醍醐寺 / 金閣寺 / 伏見稻荷", "note": "四擇一，看體力與天氣", "must": true },
+        { "slot": "晚上", "title": "河原町逛街", "tags": ["步行"] }
+      ]
+    },
+    {
+      "date": "11/22", "wd": "週日", "icon": "tea", "color": "green", "title": "宇治抹茶散策", "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+      "items": [
+        { "slot": "早上", "title": "宇治川散步", "tags": ["步行"] },
+        { "slot": "早上", "title": "中村藤吉本店", "note": "先排隊！", "must": true },
+        { "slot": "午餐", "title": "抹茶午餐 / 甜點時段" },
+        { "slot": "下午", "title": "平等院", "must": true },
+        { "slot": "晚上", "title": "逛街：四條河原町", "tags": ["步行"] }
+      ]
+    },
+    {
+      "date": "11/23", "wd": "週一", "icon": "pagoda", "color": "coral", "title": "東山古道＋祇園夜楓", "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+      "items": [
+        { "slot": "早上", "title": "清水寺", "must": true },
+        { "slot": "早上", "title": "三年坂 → 二年坂 → 八坂塔", "tags": ["步行"] },
+        { "slot": "下午", "title": "祇園 / 八坂神社", "tags": ["步行"] },
+        { "slot": "下午", "title": "南禪寺：三門＋水路閣", "must": true },
+        { "slot": "晚上", "title": "永觀堂", "note": "視 2026 夜楓開放安排", "must": true }
+      ]
+    },
+    {
+      "date": "11/24", "wd": "週二", "icon": "maple", "color": "yellow", "title": "洛北賞楓＋貴船", "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+      "items": [
+        { "slot": "早上", "title": "琉璃光院", "must": true },
+        { "slot": "下午", "title": "三千院" },
+        { "slot": "下午", "title": "貴船神社：本宮 → 結社", "tags": ["步行"], "must": true }
+      ]
+    },
+    {
+      "date": "11/25", "wd": "週三", "icon": "bamboo", "color": "green", "title": "嵐山小火車＋保津川", "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+      "items": [
+        { "slot": "早上", "title": "西芳寺", "tags": ["需預約"], "must": true },
+        { "slot": "下午", "title": "嵐山小火車", "tags": ["小火車", "需預約"], "must": true },
+        { "slot": "下午", "title": "保津川遊船", "tags": ["遊船", "需預約"] },
+        { "slot": "下午", "title": "竹林小徑 / 天龍寺庭園 / 常寂光寺", "tags": ["步行"], "must": true },
+        { "slot": "晚上", "title": "返回四條 / 河原町", "tags": ["電車"] }
+      ]
+    },
+    {
+      "date": "11/26", "wd": "週四", "icon": "deer", "color": "blue", "title": "奈良小鹿之旅", "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+      "items": [
+        { "slot": "早上", "title": "奈良公園餵小鹿", "must": true },
+        { "slot": "早上", "title": "東大寺", "must": true },
+        { "slot": "下午", "title": "春日大社" }
+      ]
+    },
+    {
+      "date": "11/27", "wd": "週五", "icon": "plane", "color": "coral", "title": "回家囉", "stay": "",
+      "items": [
+        { "slot": "下午", "title": "飛機", "tags": ["飛機"], "note": "留意退房與前往 KIX 的時間" }
+      ]
+    }
+  ],
+  "todos": [
+    "西芳寺預約（11/25）",
+    "嵐山小火車預約（11/25）",
+    "保津川遊船預約（11/25）",
+    "Visit Japan Web 入境登錄",
+    "確認永觀堂 2026 夜楓開放時間",
+    "ICOCA / 交通卡準備",
+    "eSIM 或網路卡",
+    "中村藤吉本店排隊策略（11/22）"
+  ],
+  "stays": [
+    { "city": "大阪", "name": "Miyako City Osaka Tennoji", "dates": "11/19 – 11/21" },
+    { "city": "京都", "name": "Sotetsu Fresa Inn Kyoto Hachijoguchi", "dates": "11/21 – 11/27" }
+  ]
+}
