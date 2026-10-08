@@ -75,7 +75,7 @@ function Flights() {
       <Title>航班</Title>
       {trip.flights.map((f) => (
         <article key={f.label} className={`card flight ${f.color}`}>
-          <header><span>{f.label}</span><span>{f.no}</span></header>
+          <header><span>{f.label}</span>{f.no && <span>{f.no}</span>}</header>
           <div className="flight-row">
             <div><b>{f.dep}</b><small>{f.from}</small></div>
             <div className="flight-line" aria-hidden="true"><i /></div>
@@ -84,7 +84,6 @@ function Flights() {
           <p>{f.note}</p>
         </article>
       ))}
-      <p className="hint">航班編號與時間尚未填入，請編輯 <code>src/data/trip.json</code>。</p>
     </section>
   )
 }
