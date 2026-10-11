@@ -9,7 +9,7 @@ const SECTIONS = [
   ['stay', '住宿'],
 ]
 const SLOT_ORDER = ['早上', '午餐', '下午', '晚上', '晚餐']
-const TAG_COLOR = { 電車: 'blue', 地鐵: 'green', 巴士: 'yellow', 步行: 'green', 飛機: 'blue', 遊船: 'blue', 小火車: 'yellow', 需預約: 'coral' }
+const TAG_COLOR = { 電車: 'blue', 地鐵: 'green', 巴士: 'yellow', 步行: 'green', 飛機: 'blue', 遊船: 'blue', 小火車: 'yellow', 需預約: 'coral', 已預約: 'green' }
 
 function load(key, fallback) {
   try {

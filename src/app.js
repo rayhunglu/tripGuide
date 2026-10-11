@@ -14,7 +14,7 @@ module.exports.createServer = () => {
     res.sendFile(path.join(__dirname, '..', 'dist', 'index.html'));
   });
 
-  app.set('port', parseInt(process.env.PORT || '3000', 10));
+  app.set('port', parseInt(process.env.PORT || '3001', 10));
   return app;
 };
 

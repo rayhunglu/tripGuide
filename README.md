@@ -10,5 +10,5 @@
 ```bash
 npm install
 npm run dev     # Vite dev server
-npm start       # build + Express on :3000
+npm start       # build + Express on :3001
 ```
