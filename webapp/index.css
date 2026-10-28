@@ -87,7 +87,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   flex: 1; min-width: 0; background: none; border: 0; padding: 4px 0; text-align: center; position: relative;
 }
 .stop .dot { display: none; }
-.stop b { display: inline-block; padding: 1px 6px; border-radius: 999px; border: 3px solid transparent; font-size: 0.82rem; transition: transform 0.4s var(--bounce); }
+.stop b { display: inline-block; padding: 1px 3px; border-radius: 999px; border: 3px solid transparent; font-size: 0.74rem; white-space: nowrap; transition: transform 0.4s var(--bounce); }
 .stop small { font-size: 0.72rem; }
 .stop.on b { background: var(--coral); border-color: var(--ink); transform: scale(1.1); }
 
@@ -173,3 +173,68 @@ footer { text-align: center; padding: 10px 16px 40px; opacity: 0.7; }
   .stop b { font-size: 0.72rem; padding: 0 3px; }
   .hero h1 { font-size: 1.7rem; }
 }
+
+/* nav extras */
+.nav nav > span.on { background: var(--coral); border: 3px solid var(--ink); border-radius: 999px; padding: 4px 14px; }
+.nav nav a { padding: 4px 11px; }
+.map-link {
+  flex: 1; text-align: center; text-decoration: none; padding: 8px; background: var(--blue);
+  border: 3px solid var(--ink); border-radius: 999px; transition: transform 0.3s var(--bounce);
+}
+.map-link:active { transform: scale(0.94); }
+.slot-label { font-size: 0.78rem; }
+
+/* detail page */
+main.detail { max-width: 760px; }
+.detail-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.detail-head h3 { margin: 0; font-size: 1.1rem; }
+.cards {
+  display: flex; gap: 12px; overflow-x: auto; padding: 8px 4px 14px; margin: 0 -16px; padding-inline: 16px;
+  scroll-snap-type: x mandatory; scroll-padding-inline: 16px; position: relative; cursor: grab;
+  scrollbar-width: none; overscroll-behavior-x: contain; user-select: none;
+}
+.cards::-webkit-scrollbar { display: none; }
+.cards.dragging { scroll-snap-type: none; cursor: grabbing; }
+.pcard {
+  flex: 0 0 78%; max-width: 300px; scroll-snap-align: center; background: #fff;
+  border: 3px solid var(--ink); border-radius: 22px; padding: 12px 14px; display: flex; flex-direction: column; gap: 6px;
+  transition: transform 0.35s var(--bounce), box-shadow 0.2s, background 0.2s;
+}
+.pcard.hotel { background: #F4F9EE; }
+.pcard.on { background: #FFF3E8; transform: translateY(-3px); box-shadow: 4px 4px 0 var(--coral); }
+.pcard strong { font-weight: 400; font-size: 1.05rem; line-height: 1.35; }
+.pcard-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pcard-top b { font-weight: 400; }
+.num {
+  width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-size: 0.85rem;
+  background: var(--coral); border: 3px solid var(--ink);
+}
+.pcard.hotel .num { background: var(--green); }
+.trip-map {
+  height: min(56vh, 520px); min-height: 340px; margin-top: 6px; border: 3px solid var(--ink); border-radius: 24px;
+  overflow: hidden; background: var(--blue); z-index: 0; font-family: inherit;
+}
+.pin span {
+  width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--pin, var(--coral)); border: 3px solid var(--ink); color: var(--ink); font-size: 0.85rem;
+  transition: transform 0.3s var(--bounce);
+}
+.pin.hotel span { background: var(--green); }
+.pin.on span { transform: scale(1.35); background: var(--coral); }
+.leg-wrap { overflow: visible; }
+.leg {
+  position: absolute; transform: translate(-50%, -50%); white-space: nowrap; font-size: 0.75rem;
+  background: var(--paper); border: 2px solid var(--ink); border-radius: 999px; padding: 0 8px;
+}
+.leaflet-container { font-family: inherit; }
+.leaflet-bar a { border-radius: 8px !important; }
+.leaflet-control-attribution { font-size: 9px; }
+@media (min-width: 700px) { .pcard { flex-basis: 260px; } }
+.nav nav { gap: 0; }
+.nav nav a, .nav nav > span.on { white-space: nowrap; padding: 4px 9px; font-size: 0.92rem; }
+.map-note { font-size: 0.78rem; opacity: 0.7; margin: 8px 4px 0; line-height: 1.5; }
+.via { opacity: 1; font-size: 0.78rem; line-height: 1.4; color: #6b6361; background: var(--paper); border-left: 3px solid var(--blue); padding: 1px 0 1px 8px; border-radius: 2px; }
+.ticon { vertical-align: -3px; flex: none; }
+.tag { display: inline-flex; align-items: center; gap: 3px; }
+.ticons { display: inline-flex; gap: 3px; margin-right: 5px; vertical-align: -3px; color: var(--ink); }
+.via { display: block; }

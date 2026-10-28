@@ -9,6 +9,10 @@ module.exports.createServer = () => {
   app.get('/api/trip', (req, res) => res.json(trip));
 
   // UI: serve the Vite build output
+  app.get('/sw.js', (req, res) => {
+    res.set('Cache-Control', 'no-cache');
+    res.sendFile(path.join(__dirname, '..', 'dist', 'sw.js'));
+  });
   app.use(express.static(path.join(__dirname, '..', 'dist')));
   app.get(/^\/(?!api).*/, (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'dist', 'index.html'));

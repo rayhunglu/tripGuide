@@ -1,404 +1,877 @@
 {
-  "title": "大阪・京都 楓遊記",
-  "subtitle": "9 天 8 夜｜2026.11.19 – 11.27",
-  "departure": "2026-11-19T00:00:00",
-  "flights": [
+ "title": "大阪・京都 楓遊記",
+ "subtitle": "9 天 8 夜｜2026.11.19 – 11.27",
+ "departure": "2026-11-19T00:00:00",
+ "flights": [
+  {
+   "label": "11/19（四）去程",
+   "color": "blue",
+   "from": "桃園 TPE",
+   "to": "關西機場 KIX",
+   "dep": "08:20",
+   "arr": "11:55",
+   "no": "",
+   "note": "KIX 入境、領取行李"
+  },
+  {
+   "label": "11/27（五）回程",
+   "color": "green",
+   "from": "關西機場 KIX",
+   "to": "桃園 TPE",
+   "dep": "12:55",
+   "arr": "15:05",
+   "no": "",
+   "note": "退房後提早前往 KIX"
+  }
+ ],
+ "days": [
+  {
+   "date": "11/19",
+   "wd": "週四",
+   "icon": "tower",
+   "color": "coral",
+   "title": "抵達大阪＋道頓堀＋新世界夜遊",
+   "stay": "大阪｜Miyako City Osaka Tennoji",
+   "stops": [
     {
-      "label": "11/19（四）去程",
-      "color": "blue",
-      "from": "桃園 TPE",
-      "to": "關西機場 KIX",
-      "dep": "08:20",
-      "arr": "11:55",
-      "no": "",
-      "note": "KIX 入境、領取行李"
+     "time": "06:20",
+     "name": "桃園機場第一航廈",
+     "lat": null,
+     "lng": null,
+     "next": {
+      "mode": "plane",
+      "min": 170
+     },
+     "kind": "airport",
+     "show": true,
+     "note": "停留 2 小時"
     },
     {
-      "label": "11/27（五）回程",
-      "color": "green",
-      "from": "關西機場 KIX",
-      "to": "桃園 TPE",
-      "dep": "12:55",
-      "arr": "15:05",
-      "no": "",
-      "note": "退房後提早前往 KIX"
+     "time": "12:10",
+     "name": "關西國際機場",
+     "lat": 34.432,
+     "lng": 135.2304,
+     "next": {
+      "mode": "ride",
+      "min": 65
+     },
+     "show": true,
+     "note": "入境、領取行李"
+    },
+    {
+     "time": "14:15",
+     "name": "Tennoji Miyako Hotel 天王寺都ホテル",
+     "lat": 34.6456,
+     "lng": 135.5158,
+     "next": {
+      "mode": "ride",
+      "min": 18
+     },
+     "kind": "hotel",
+     "show": true,
+     "note": "Check-in / 放行李",
+     "via": "JR 關空快速：関西空港 → 天王寺"
+    },
+    {
+     "time": "15:33",
+     "name": "固力果跑跑人看板（戎橋）",
+     "lat": 34.66875,
+     "lng": 135.50135,
+     "next": {
+      "mode": "walk",
+      "min": 2
+     },
+     "must": true,
+     "note": "道頓堀最有名的打卡點",
+     "via": "地鐵御堂筋線：天王寺 → 難波，再步行到戎橋"
+    },
+    {
+     "time": "17:08",
+     "name": "道頓堀商店街",
+     "lat": 34.6687,
+     "lng": 135.5019,
+     "next": {
+      "mode": "walk",
+      "min": 1
+     },
+     "must": true
+    },
+    {
+     "time": "17:19",
+     "name": "法善寺橫丁",
+     "lat": 34.668,
+     "lng": 135.5031,
+     "next": {
+      "mode": "walk",
+      "min": 1
+     }
+    },
+    {
+     "time": "18:01",
+     "name": "蟹道樂 道頓堀本店",
+     "lat": 34.6686,
+     "lng": 135.5016,
+     "next": {
+      "mode": "ride",
+      "min": 15
+     },
+     "note": "建議事先訂位"
+    },
+    {
+     "time": "19:17",
+     "name": "新世界",
+     "lat": 34.6521,
+     "lng": 135.5057,
+     "next": {
+      "mode": "walk",
+      "min": 1
+     },
+     "via": "地鐵御堂筋線：難波 → 動物園前"
+    },
+    {
+     "time": "20:18",
+     "name": "通天閣",
+     "lat": 34.6525,
+     "lng": 135.5063,
+     "next": {
+      "mode": "walk",
+      "min": 21
+     },
+     "must": true
+    },
+    {
+     "time": "21:40",
+     "name": "Tennoji Miyako Hotel 天王寺都ホテル",
+     "lat": 34.6456,
+     "lng": 135.5158,
+     "kind": "hotel"
     }
-  ],
-  "days": [
+   ]
+  },
+  {
+   "date": "11/20",
+   "wd": "週五",
+   "icon": "cake",
+   "color": "yellow",
+   "title": "四天王寺＋中崎町＋梅田夜景",
+   "stay": "大阪｜Miyako City Osaka Tennoji",
+   "stops": [
     {
-      "date": "11/19",
-      "wd": "週四",
-      "icon": "tower",
-      "color": "coral",
-      "title": "抵達大阪＋新世界＋道頓堀夜遊",
-      "stay": "大阪｜Miyako City Osaka Tennoji",
-      "items": [
-        {
-          "slot": "下午",
-          "title": "KIX 入境、領取行李",
-          "tags": [
-            "飛機"
-          ],
-          "note": "11:55 抵達，預留入境時間"
-        },
-        {
-          "slot": "下午",
-          "title": "關西機場 → 大阪飯店",
-          "tags": [
-            "電車"
-          ]
-        },
-        {
-          "slot": "下午",
-          "title": "Check-in / 放行李，稍作休息"
-        },
-        {
-          "slot": "晚上",
-          "title": "新世界＋通天閣",
-          "tags": [
-            "步行"
-          ],
-          "note": "飯店走路可到，晚上亮燈",
-          "must": true
-        },
-        {
-          "slot": "晚上",
-          "title": "心齋橋 → 道頓堀 → 法善寺橫丁",
-          "tags": [
-            "地鐵",
-            "步行"
-          ],
-          "note": "累的話可改到其他晚上",
-          "must": true
-        },
-        {
-          "slot": "晚餐",
-          "title": "新世界 串炸"
-        },
-        {
-          "slot": "晚餐",
-          "title": "備選：かに道樂 道頓堀本店",
-          "note": "想吃螃蟹再改，建議事先訂位"
-        }
-      ]
+     "time": "08:00",
+     "name": "Tennoji Miyako Hotel 天王寺都ホテル",
+     "lat": 34.6456,
+     "lng": 135.5158,
+     "next": {
+      "mode": "ride",
+      "min": 13
+     },
+     "kind": "hotel"
     },
     {
-      "date": "11/20",
-      "wd": "週五",
-      "icon": "tower",
-      "color": "yellow",
-      "title": "四天王寺＋天神橋＋梅田夜景",
-      "stay": "大阪｜Miyako City Osaka Tennoji",
-      "items": [
-        {
-          "slot": "早上",
-          "title": "四天王寺",
-          "note": "約 16:00 關門，所以放在早上"
-        },
-        {
-          "slot": "午餐",
-          "title": "午餐自由",
-          "note": "黑門市場可邊逛邊吃"
-        },
-        {
-          "slot": "下午",
-          "title": "黑門市場",
-          "tags": [
-            "電車"
-          ],
-          "note": "約 17:00 前收攤，先逛"
-        },
-        {
-          "slot": "下午",
-          "title": "天神橋筋商店街",
-          "tags": [
-            "電車",
-            "步行"
-          ]
-        },
-        {
-          "slot": "下午",
-          "title": "中崎町"
-        },
-        {
-          "slot": "下午",
-          "title": "HARBS 水果蛋糕下午茶",
-          "note": "分店待確認（梅田附近順路）",
-          "must": true
-        },
-        {
-          "slot": "晚上",
-          "title": "梅田＋空中庭園夜景",
-          "must": true,
-          "note": "11 月約 16:50 日落，可看日落到夜景"
-        },
-        {
-          "slot": "晚餐",
-          "title": "梅田附近"
-        }
-      ]
+     "time": "08:43",
+     "name": "四天王寺",
+     "lat": 34.6547,
+     "lng": 135.5168,
+     "next": {
+      "mode": "ride",
+      "min": 25
+     },
+     "via": "地鐵谷町線：天王寺 → 四天王寺前夕陽ヶ丘"
     },
     {
-      "date": "11/21",
-      "wd": "週六",
-      "icon": "train",
-      "color": "blue",
-      "title": "大阪到京都＋古寺巡禮",
-      "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
-      "items": [
-        {
-          "slot": "早上",
-          "title": "大阪到京都",
-          "tags": [
-            "電車"
-          ]
-        },
-        {
-          "slot": "下午",
-          "title": "二條城 / 醍醐寺 / 金閣寺 / 伏見稻荷",
-          "note": "四擇一，看體力與天氣",
-          "must": true
-        },
-        {
-          "slot": "晚上",
-          "title": "河原町逛街",
-          "tags": [
-            "步行"
-          ]
-        }
-      ]
+     "time": "10:08",
+     "name": "黑門市場",
+     "lat": 34.6667,
+     "lng": 135.5071,
+     "next": {
+      "mode": "ride",
+      "min": 16
+     },
+     "note": "約 17:00 前收攤",
+     "via": "地鐵谷町線 → 千日前線：四天王寺前夕陽ヶ丘 → 谷町九丁目 → 日本橋"
     },
     {
-      "date": "11/22",
-      "wd": "週日",
-      "icon": "tea",
-      "color": "green",
-      "title": "宇治抹茶散策",
-      "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
-      "items": [
-        {
-          "slot": "早上",
-          "title": "宇治川散步",
-          "tags": [
-            "步行"
-          ]
-        },
-        {
-          "slot": "早上",
-          "title": "中村藤吉本店",
-          "note": "先排隊！",
-          "must": true
-        },
-        {
-          "slot": "午餐",
-          "title": "抹茶午餐 / 甜點時段"
-        },
-        {
-          "slot": "下午",
-          "title": "平等院",
-          "must": true
-        },
-        {
-          "slot": "晚上",
-          "title": "逛街：四條河原町",
-          "tags": [
-            "步行"
-          ]
-        }
-      ]
+     "time": "11:55",
+     "name": "天神橋筋商店街",
+     "lat": 34.7042,
+     "lng": 135.5114,
+     "next": {
+      "mode": "ride",
+      "min": 13
+     },
+     "via": "地鐵堺筋線：日本橋 → 扇町"
     },
     {
-      "date": "11/23",
-      "wd": "週一",
-      "icon": "pagoda",
-      "color": "coral",
-      "title": "東山古道＋祇園夜楓",
-      "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
-      "items": [
-        {
-          "slot": "早上",
-          "title": "清水寺",
-          "must": true
-        },
-        {
-          "slot": "早上",
-          "title": "三年坂 → 二年坂 → 八坂塔",
-          "tags": [
-            "步行"
-          ]
-        },
-        {
-          "slot": "下午",
-          "title": "祇園 / 八坂神社",
-          "tags": [
-            "步行"
-          ]
-        },
-        {
-          "slot": "下午",
-          "title": "南禪寺：三門＋水路閣",
-          "must": true
-        },
-        {
-          "slot": "晚上",
-          "title": "永觀堂",
-          "note": "視 2026 夜楓開放安排",
-          "must": true
-        }
-      ]
+     "time": "13:38",
+     "name": "中崎町車站",
+     "lat": 34.7049,
+     "lng": 135.5086,
+     "next": {
+      "mode": "walk",
+      "min": 5
+     },
+     "via": "地鐵谷町線：南森町 → 中崎町"
     },
     {
-      "date": "11/24",
-      "wd": "週二",
-      "icon": "maple",
-      "color": "yellow",
-      "title": "洛北賞楓＋貴船",
-      "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
-      "items": [
-        {
-          "slot": "早上",
-          "title": "琉璃光院",
-          "must": true,
-          "tags": [
-            "已預約"
-          ],
-          "note": "11/24 09:00 已預約"
-        },
-        {
-          "slot": "下午",
-          "title": "三千院"
-        },
-        {
-          "slot": "下午",
-          "title": "貴船神社：本宮 → 結社",
-          "tags": [
-            "步行"
-          ],
-          "must": true
-        }
-      ]
+     "time": "13:58",
+     "name": "neel nakazakicho",
+     "lat": 34.7088,
+     "lng": 135.5034,
+     "next": {
+      "mode": "walk",
+      "min": 3
+     }
     },
     {
-      "date": "11/25",
-      "wd": "週三",
-      "icon": "bamboo",
-      "color": "green",
-      "title": "嵐山小火車＋保津川",
-      "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
-      "items": [
-        {
-          "slot": "早上",
-          "title": "西芳寺",
-          "tags": [
-            "已預約"
-          ],
-          "note": "10:00 已預約",
-          "must": true
-        },
-        {
-          "slot": "午餐",
-          "title": "嵐山午餐"
-        },
-        {
-          "slot": "下午",
-          "title": "竹林小徑 / 天龍寺庭園 / 常寂光寺",
-          "tags": [
-            "步行"
-          ],
-          "note": "趕不及就先刪常寂光寺；天龍寺約 17:00 關門",
-          "must": true
-        },
-        {
-          "slot": "下午",
-          "title": "嵐山小火車（嵯峨 → 龜岡）",
-          "tags": [
-            "小火車",
-            "需預約"
-          ],
-          "note": "要趕上 15:00 的遊船，選能在 14:30 前到龜岡的班次",
-          "must": true
-        },
-        {
-          "slot": "下午",
-          "title": "保津川遊船（龜岡 → 嵐山）",
-          "tags": [
-            "遊船",
-            "已預約"
-          ],
-          "note": "15:00 已預約，約 2 小時，傍晚抵達嵐山"
-        },
-        {
-          "slot": "晚上",
-          "title": "返回四條 / 河原町",
-          "tags": [
-            "電車"
-          ]
-        }
-      ]
+     "time": "15:02",
+     "name": "POMME L'IMINAL osaka",
+     "lat": 34.7077,
+     "lng": 135.5088,
+     "next": {
+      "mode": "ride",
+      "min": 11
+     }
     },
     {
-      "date": "11/26",
-      "wd": "週四",
-      "icon": "deer",
-      "color": "blue",
-      "title": "奈良小鹿之旅",
-      "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
-      "items": [
-        {
-          "slot": "早上",
-          "title": "奈良公園餵小鹿",
-          "must": true
-        },
-        {
-          "slot": "早上",
-          "title": "東大寺",
-          "must": true
-        },
-        {
-          "slot": "下午",
-          "title": "春日大社"
-        }
-      ]
+     "time": "16:13",
+     "name": "HARBS Diamor 大阪店",
+     "lat": 34.7001,
+     "lng": 135.4977,
+     "next": {
+      "mode": "walk",
+      "min": 5
+     },
+     "must": true,
+     "via": "地鐵谷町線：中崎町 → 東梅田"
     },
     {
-      "date": "11/27",
-      "wd": "週五",
-      "icon": "plane",
-      "color": "coral",
-      "title": "回家囉",
-      "stay": "",
-      "items": [
-        {
-          "slot": "下午",
-          "title": "飛機",
-          "tags": [
-            "飛機"
-          ],
-          "note": "12:55 起飛，記得提早前往 KIX"
-        }
-      ]
+     "time": "17:19",
+     "name": "Nintendo OSAKA",
+     "lat": 34.704,
+     "lng": 135.4989,
+     "next": {
+      "mode": "walk",
+      "min": 5
+     },
+     "note": "大丸梅田 13F"
+    },
+    {
+     "time": "18:24",
+     "name": "GIN NO MORI（Grand Front）",
+     "lat": 34.7047,
+     "lng": 135.4937,
+     "next": {
+      "mode": "walk",
+      "min": 8
+     },
+     "note": "パティスリー"
+    },
+    {
+     "time": "19:32",
+     "name": "梅田空中庭園",
+     "lat": 34.7055,
+     "lng": 135.4906,
+     "next": {
+      "mode": "ride",
+      "min": 36
+     },
+     "must": true
+    },
+    {
+     "time": "21:09",
+     "name": "Tennoji Miyako Hotel 天王寺都ホテル",
+     "lat": 34.6456,
+     "lng": 135.5158,
+     "kind": "hotel",
+     "via": "地鐵御堂筋線：梅田 → 天王寺"
     }
-  ],
-  "todos": [
-    "西芳寺預約（11/25 10:00）",
-    "嵐山小火車預約（11/25）",
-    "保津川遊船預約（11/25 15:00）",
-    "Visit Japan Web 入境登錄",
-    "確認永觀堂 2026 夜楓開放時間",
-    "ICOCA / 交通卡準備",
-    "eSIM 或網路卡",
-    "中村藤吉本店排隊策略（11/22）"
-  ],
-  "stays": [
+   ]
+  },
+  {
+   "date": "11/21",
+   "wd": "週六",
+   "icon": "train",
+   "color": "blue",
+   "title": "轉往京都＋伏見稻荷",
+   "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+   "stops": [
     {
-      "city": "大阪",
-      "name": "Miyako City Osaka Tennoji",
-      "dates": "11/19 – 11/21"
+     "time": "08:00",
+     "name": "Tennoji Miyako Hotel 天王寺都ホテル",
+     "lat": 34.6456,
+     "lng": 135.5158,
+     "next": {
+      "mode": "ride",
+      "min": 62
+     },
+     "kind": "hotel"
     },
     {
-      "city": "京都",
-      "name": "Sotetsu Fresa Inn Kyoto Hachijoguchi",
-      "dates": "11/21 – 11/27"
+     "time": "10:02",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "next": {
+      "mode": "ride",
+      "min": 15
+     },
+     "kind": "hotel",
+     "show": true,
+     "note": "寄放行李 / Check-in",
+     "via": "JR 環狀線／新快速：天王寺 → 大阪 → 京都"
+    },
+    {
+     "time": "11:22",
+     "name": "伏見稻荷大社",
+     "lat": 34.9671,
+     "lng": 135.7727,
+     "next": {
+      "mode": "ride",
+      "min": 25
+     },
+     "must": true,
+     "note": "千本鳥居，爬到四辻視野最好",
+     "via": "JR 奈良線：京都 → 稻荷"
+    },
+    {
+     "time": "14:09",
+     "name": "京都河原町",
+     "lat": 35.0036,
+     "lng": 135.7684,
+     "next": {
+      "mode": "ride",
+      "min": 26
+     },
+     "via": "京阪本線：伏見稻荷 → 祇園四條，再步行到河原町"
+    },
+    {
+     "time": "15:36",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "kind": "hotel",
+     "via": "市巴士 205：四條河原町 → 京都駅前"
     }
-  ]
+   ]
+  },
+  {
+   "date": "11/22",
+   "wd": "週日",
+   "icon": "tea",
+   "color": "green",
+   "title": "宇治抹茶散策",
+   "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "next": {
+      "mode": "ride",
+      "min": 22
+     },
+     "kind": "hotel"
+    },
+    {
+     "time": "09:22",
+     "name": "宇治川",
+     "lat": 34.892,
+     "lng": 135.807,
+     "next": {
+      "mode": "walk",
+      "min": 7
+     },
+     "via": "JR 奈良線：京都 → 宇治"
+    },
+    {
+     "time": "10:29",
+     "name": "中村藤吉本店 宇治本店",
+     "lat": 34.8898,
+     "lng": 135.8078,
+     "next": {
+      "mode": "walk",
+      "min": 10
+     },
+     "must": true,
+     "note": "先排隊！"
+    },
+    {
+     "time": "12:09",
+     "name": "平等院",
+     "lat": 34.8894,
+     "lng": 135.8074,
+     "next": {
+      "mode": "ride",
+      "min": 50
+     },
+     "must": true
+    },
+    {
+     "time": "16:41",
+     "name": "四條河原町",
+     "lat": 35.0038,
+     "lng": 135.7697,
+     "next": {
+      "mode": "ride",
+      "min": 19
+     },
+     "via": "京阪宇治線 → 京阪本線：宇治 → 中書島 → 祇園四條，再步行到四條河原町"
+    },
+    {
+     "time": "20:01",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "kind": "hotel",
+     "via": "市巴士 205：四條河原町 → 京都駅前"
+    }
+   ]
+  },
+  {
+   "date": "11/23",
+   "wd": "週一",
+   "icon": "pagoda",
+   "color": "coral",
+   "title": "東山古道＋永觀堂",
+   "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+   "stops": [
+    {
+     "time": "06:00",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "next": {
+      "mode": "ride",
+      "min": 12
+     },
+     "kind": "hotel"
+    },
+    {
+     "time": "06:12",
+     "name": "清水寺",
+     "lat": 34.9949,
+     "lng": 135.785,
+     "next": {
+      "mode": "walk",
+      "min": 5
+     },
+     "must": true,
+     "via": "市巴士 100／206：京都駅前 → 五條坂"
+    },
+    {
+     "time": "08:18",
+     "name": "產寧坂（三年坂）",
+     "lat": 34.9975,
+     "lng": 135.7811,
+     "next": {
+      "mode": "walk",
+      "min": 3
+     }
+    },
+    {
+     "time": "09:21",
+     "name": "二寧坂（二年坂）",
+     "lat": 34.9984,
+     "lng": 135.78,
+     "next": {
+      "mode": "walk",
+      "min": 2
+     }
+    },
+    {
+     "time": "10:23",
+     "name": "八坂之塔（五重塔）",
+     "lat": 34.9986,
+     "lng": 135.7792,
+     "next": {
+      "mode": "walk",
+      "min": 11
+     }
+    },
+    {
+     "time": "11:35",
+     "name": "祇園花見小路",
+     "lat": 35.0033,
+     "lng": 135.7745,
+     "next": {
+      "mode": "walk",
+      "min": 5
+     }
+    },
+    {
+     "time": "12:10",
+     "name": "八坂神社",
+     "lat": 35.0036,
+     "lng": 135.7785,
+     "next": {
+      "mode": "ride",
+      "min": 13
+     }
+    },
+    {
+     "time": "13:23",
+     "name": "南禪院",
+     "lat": 35.0102,
+     "lng": 135.7939,
+     "next": {
+      "mode": "walk",
+      "min": 1
+     },
+     "must": true,
+     "via": "地鐵東西線：東山 → 蹴上"
+    },
+    {
+     "time": "14:25",
+     "name": "永觀堂（禪林寺）",
+     "lat": 35.014,
+     "lng": 135.795,
+     "next": {
+      "mode": "ride",
+      "min": 38
+     },
+     "must": true,
+     "note": "視 2026 夜楓開放安排"
+    },
+    {
+     "time": "16:03",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "kind": "hotel",
+     "via": "市巴士 5：南禪寺・永觀堂道 → 京都駅前"
+    }
+   ]
+  },
+  {
+   "date": "11/24",
+   "wd": "週二",
+   "icon": "maple",
+   "color": "yellow",
+   "title": "洛北賞楓＋貴船",
+   "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "next": {
+      "mode": "ride",
+      "min": 49
+     },
+     "kind": "hotel"
+    },
+    {
+     "time": "08:50",
+     "name": "瑠璃光院",
+     "lat": 35.0634,
+     "lng": 135.8086,
+     "next": {
+      "mode": "ride",
+      "min": 35
+     },
+     "must": true,
+     "tags": [
+      "已預約"
+     ],
+     "note": "11/24 09:00 已預約",
+     "via": "地鐵烏丸線 → 叡山電車：京都 → 今出川，步行到出町柳 → 八瀨比叡山口"
+    },
+    {
+     "time": "11:25",
+     "name": "三千院",
+     "lat": 35.1196,
+     "lng": 135.8349,
+     "next": {
+      "mode": "ride",
+      "min": 85
+     },
+     "via": "京都巴士 19：八瀨駅前 → 大原"
+    },
+    {
+     "time": "15:51",
+     "name": "貴船神社",
+     "lat": 35.1219,
+     "lng": 135.7629,
+     "next": {
+      "mode": "ride",
+      "min": 88
+     },
+     "must": true,
+     "note": "本宮 → 結社",
+     "via": "京都巴士 19 → 叡山電車 → 巴士 33：大原 → 八瀨 → 出町柳 → 貴船口 → 貴船"
+    },
+    {
+     "time": "20:50",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "kind": "hotel",
+     "via": "巴士 33 → 叡山電車：貴船 → 貴船口 → 出町柳，再搭地鐵回京都"
+    }
+   ]
+  },
+  {
+   "date": "11/25",
+   "wd": "週三",
+   "icon": "bamboo",
+   "color": "green",
+   "title": "嵐山小火車＋保津川",
+   "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "next": {
+      "mode": "ride",
+      "min": 53
+     },
+     "kind": "hotel"
+    },
+    {
+     "time": "10:00",
+     "name": "西芳寺",
+     "lat": 34.9923,
+     "lng": 135.6836,
+     "next": {
+      "mode": "ride",
+      "min": 34
+     },
+     "must": true,
+     "tags": [
+      "已預約"
+     ],
+     "note": "10:00 已預約（Funliday 原排 09:33 抵達）",
+     "via": "市巴士 73：京都駅前 → 苔寺・すず虫寺"
+    },
+    {
+     "time": "13:00",
+     "name": "嵐山小火車（トロッコ嵐山駅）",
+     "lat": 35.0158,
+     "lng": 135.6745,
+     "next": {
+      "mode": "ride",
+      "min": 29
+     },
+     "must": true,
+     "tags": [
+      "小火車",
+      "需預約"
+     ],
+     "via": "阪急嵐山線：松尾大社 → 嵐山，再步行到嵯峨嵐山站旁"
+    },
+    {
+     "time": "13:59",
+     "name": "亀岡車站",
+     "lat": 35.0114,
+     "lng": 135.5824,
+     "next": {
+      "mode": "walk",
+      "min": 8
+     },
+     "via": "嵯峨野小火車：トロッコ嵐山 → トロッコ亀岡"
+    },
+    {
+     "time": "15:00",
+     "name": "保津川下り 乘船場",
+     "lat": 35.0174,
+     "lng": 135.5866,
+     "next": {
+      "mode": "boat",
+      "min": 120
+     },
+     "tags": [
+      "遊船",
+      "已預約"
+     ],
+     "note": "15:00 已預約，約 2 小時"
+    },
+    {
+     "time": "17:34",
+     "name": "保津川下り 終點（嵐山岸）",
+     "lat": 35.0124,
+     "lng": 135.6721,
+     "next": {
+      "mode": "walk",
+      "min": 18
+     },
+     "via": "保津川遊船：龜岡 → 嵐山（約 2 小時）"
+    },
+    {
+     "time": "18:53",
+     "name": "竹林小徑",
+     "lat": 35.017,
+     "lng": 135.6705,
+     "next": {
+      "mode": "walk",
+      "min": 10
+     },
+     "must": true
+    },
+    {
+     "time": "19:34",
+     "name": "常寂光寺",
+     "lat": 35.0197,
+     "lng": 135.6686,
+     "next": {
+      "mode": "ride",
+      "min": 50
+     },
+     "note": "約 17:00 關門，可能需提前"
+    },
+    {
+     "time": "21:05",
+     "name": "京都河原町",
+     "lat": 35.0036,
+     "lng": 135.7684,
+     "next": {
+      "mode": "ride",
+      "min": 24
+     },
+     "via": "嵐電 → 阪急京都線：嵐山 → 四條大宮 → 河原町"
+    },
+    {
+     "time": "21:34",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "kind": "hotel",
+     "via": "市巴士 205：四條河原町 → 京都駅前"
+    }
+   ]
+  },
+  {
+   "date": "11/26",
+   "wd": "週四",
+   "icon": "deer",
+   "color": "blue",
+   "title": "奈良小鹿之旅",
+   "stay": "京都｜Sotetsu Fresa Inn Kyoto Hachijoguchi",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "next": {
+      "mode": "ride",
+      "min": 49
+     },
+     "kind": "hotel"
+    },
+    {
+     "time": "09:49",
+     "name": "奈良公園",
+     "lat": 34.6851,
+     "lng": 135.843,
+     "next": {
+      "mode": "walk",
+      "min": 15
+     },
+     "must": true,
+     "via": "近鐵京都線：京都 → 近鐵奈良"
+    },
+    {
+     "time": "11:04",
+     "name": "東大寺",
+     "lat": 34.6882,
+     "lng": 135.8398,
+     "next": {
+      "mode": "ride",
+      "min": 19
+     },
+     "must": true
+    },
+    {
+     "time": "12:23",
+     "name": "春日大社",
+     "lat": 34.6805,
+     "lng": 135.8461,
+     "next": {
+      "mode": "ride",
+      "min": 67
+     },
+     "via": "奈良交通巴士：東大寺大佛殿・春日大社前 → 春日大社本殿"
+    },
+    {
+     "time": "14:31",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "kind": "hotel",
+     "via": "奈良交通巴士 → 近鐵京都線：春日大社 → 近鐵奈良 → 京都"
+    }
+   ]
+  },
+  {
+   "date": "11/27",
+   "wd": "週五",
+   "icon": "plane",
+   "color": "coral",
+   "title": "回家囉",
+   "stay": "",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "相鐵 FRESA INN 京都站八條口",
+     "lat": 34.9828,
+     "lng": 135.7609,
+     "next": {
+      "mode": "ride",
+      "min": 120
+     },
+     "kind": "hotel",
+     "note": "Funliday 原排 08:50，調早以趕 12:55 班機"
+    },
+    {
+     "time": "10:00",
+     "name": "關西國際機場",
+     "lat": 34.432,
+     "lng": 135.2304,
+     "next": {
+      "mode": "plane",
+      "min": 175
+     },
+     "kind": "airport",
+     "show": true,
+     "note": "12:55 起飛，提早報到",
+     "via": "JR 特急 はるか：京都 → 関西空港"
+    },
+    {
+     "time": "15:05",
+     "name": "桃園機場第一航廈",
+     "lat": null,
+     "lng": null,
+     "kind": "airport",
+     "show": true,
+     "note": "15:05 抵達"
+    }
+   ]
+  }
+ ],
+ "todos": [
+  "西芳寺預約（11/25 10:00）",
+  "嵐山小火車預約（11/25）",
+  "保津川遊船預約（11/25 15:00）",
+  "Visit Japan Web 入境登錄",
+  "確認永觀堂 2026 夜楓開放時間",
+  "ICOCA / 交通卡準備",
+  "eSIM 或網路卡",
+  "中村藤吉本店排隊策略（11/22）"
+ ],
+ "stays": [
+  {
+   "city": "大阪",
+   "name": "Miyako City Osaka Tennoji",
+   "dates": "11/19 – 11/21"
+  },
+  {
+   "city": "京都",
+   "name": "Sotetsu Fresa Inn Kyoto Hachijoguchi",
+   "dates": "11/21 – 11/27"
+  }
+ ]
 }

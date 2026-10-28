@@ -94,6 +94,11 @@ export function DayIcon({ name, color }) {
       <circle cx="26" cy="34" r="2.5" fill="var(--ink)" /><circle cx="38" cy="34" r="2.5" fill="var(--ink)" />
       <ellipse cx="32" cy="47" rx="6" ry="4" fill="var(--paper)" {...S} />
     </>),
+    cake: (<>
+      <path d="M10 34h44v18H10z" fill="var(--yellow)" {...S} />
+      <path d="M10 34q6-10 11 0 6-10 11 0 6-10 11 0 6-10 11 0z" fill="var(--paper)" {...S} />
+      <circle cx="32" cy="22" r="6" fill="var(--coral)" {...S} /><path d="M32 16v-6" {...S} fill="none" />
+    </>),
     plane: (<>
       <path d="M6 36l50-22-14 38-12-12-12 6z" fill="var(--paper)" {...S} />
       <path d="M30 40l26-26" {...S} fill="none" />
@@ -123,6 +128,25 @@ export function Torii({ size = 28 }) {
       <path d="M14 26v30M50 26v30" {...S} fill="none" />
       <path d="M6 22q26 8 52 0l-3-10Q32 18 9 12z" fill="var(--coral)" {...S} />
       <path d="M16 34h32" {...S} fill="none" />
+    </svg>
+  )
+}
+
+// Small transport icons (24px grid, currentColor strokes).
+const ICONS = {
+  train: (<><rect x="6" y="2.5" width="12" height="15" rx="3" /><rect x="8.5" y="5.5" width="7" height="5" rx="1" /><circle cx="9.5" cy="14" r="0.9" fill="currentColor" /><circle cx="14.5" cy="14" r="0.9" fill="currentColor" /><path d="M8.5 17.5l-2.5 4M15.5 17.5l2.5 4" /></>),
+  bus: (<><rect x="2.5" y="5" width="19" height="12" rx="3" /><path d="M2.5 11h19M9 5v6M15 5v6" /><circle cx="7" cy="19" r="1.6" /><circle cx="17" cy="19" r="1.6" /></>),
+  walk: (<><circle cx="13" cy="4.5" r="1.8" /><path d="M13 8l-2 5 3.5 3v5M11 13l-3 3M13 8l3 3 2 .5" /></>),
+  plane: <path d="M3 13l18-8-6 15-3-6-5 2z" />,
+  boat: (<><path d="M3 15h18l-3 5H6zM12 3v12M12 4l6 8h-6" /></>),
+}
+
+export function TIcon({ kind, size = 16 }) {
+  const body = ICONS[kind]
+  if (!body) return null
+  return (
+    <svg viewBox="0 0 24 24" width={size} height={size} className="ticon" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      {body}
     </svg>
   )
 }
